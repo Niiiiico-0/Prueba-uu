@@ -8,7 +8,7 @@ for contador in range(5):
         except ValueError:
             print("La nota debe ser un numero")
         else:
-            if nota >=1 and nota <=7
+            if nota >=1 and nota <=7:
                 suma += nota
                 nota.append(nota)
                 print("Nota registrada con exito")
@@ -17,3 +17,4 @@ for contador in range(5):
                 print("La nota debe estar entre 1 y 7")
 promedio = suma/len(notas)
 print(f"Promedio : {promedio}")
+print ("Hola")
